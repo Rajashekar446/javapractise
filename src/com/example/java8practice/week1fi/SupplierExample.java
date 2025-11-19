@@ -1,4 +1,4 @@
-package com.example.java8practice;
+package com.example.java8practice.week1fi;
 
 import java.util.Random;
 import java.util.function.Supplier;

@@ -1,4 +1,4 @@
-package com.example.java8practice;
+package com.example.java8practice.week1fi;
 
 public class CalculatorInterfaceExample {
     public static void main(String[] args) {

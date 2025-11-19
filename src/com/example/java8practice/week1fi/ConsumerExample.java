@@ -1,4 +1,4 @@
-package com.example.java8practice;
+package com.example.java8practice.week1fi;
 
 import java.util.Arrays;
 import java.util.List;

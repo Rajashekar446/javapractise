@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e7ed7d4-a489-4fd2-93a5-9194844cce9f" name="Changes" comment="changes">
+    <list default="true" id="6e7ed7d4-a489-4fd2-93a5-9194844cce9f" name="Changes" comment="string examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/java8practice/CalculatorInterfaceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/java8practice/CalculatorInterfaceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/java8practice/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/java8practice/week1fi/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/java8practice/CalculatorInterfaceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/java8practice/week1fi/CalculatorInterfaceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/java8practice/ConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/java8practice/week1fi/ConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/java8practice/FunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/java8practice/week1fi/FunctionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/java8practice/FunctionalInterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/java8practice/week1fi/FunctionalInterfaceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/java8practice/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/java8practice/week1fi/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/java8practice/LamdaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/java8practice/week1fi/LamdaExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/java8practice/PredicateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/java8practice/week1fi/PredicateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/java8practice/SupplierExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/java8practice/week1fi/SupplierExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +53,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CharacterFrequency.executor": "Run",
+    "Application.CheckRotation.executor": "Run",
     "Application.EmployeeStreamExample.executor": "Run",
     "Application.EvenNumbersExample.executor": "Run",
     "Application.FindAnyFindFirst.executor": "Run",
@@ -54,6 +63,8 @@
     "Application.ParallelStreams.executor": "Run",
     "Application.ReduceForSum.executor": "Run",
     "Application.StreamCreationExample.executor": "Run",
+    "Application.WordFrequency.executor": "Run",
+    "Application.WordsCount.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -75,61 +86,35 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EmployeeStreamExample">
+  <component name="RunManager" selected="Application.CharacterFrequency">
+    <configuration name="CharacterFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.java8practice.strings.CharacterFrequency" />
+      <module name="javapractise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.java8practice.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.java8practice.strings.CheckRotation" />
+      <module name="javapractise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.java8practice.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmployeeStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.java8practice.week2streams.EmployeeStreamExample" />
-      <module name="javapractise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.java8practice.week2streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindAnyFindFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.java8practice.week2streams.FindAnyFindFirst" />
-      <module name="javapractise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.java8practice.week2streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupingByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.java8practice.week2streams.GroupingByExample" />
-      <module name="javapractise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.java8practice.week2streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParallelStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.java8practice.week2streams.ParallelStreams" />
-      <module name="javapractise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.java8practice.week2streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReduceForSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.java8practice.week2streams.ReduceForSum" />
       <module name="javapractise" />
       <extension name="coverage">
         <pattern>
@@ -148,21 +133,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.java8practice.strings.WordFrequency" />
+      <module name="javapractise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.java8practice.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.java8practice.strings.WordsCount" />
+      <module name="javapractise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.java8practice.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.CharacterFrequency" />
+      <item itemvalue="Application.CheckRotation" />
       <item itemvalue="Application.EmployeeStreamExample" />
-      <item itemvalue="Application.FindAnyFindFirst" />
-      <item itemvalue="Application.GroupingByExample" />
-      <item itemvalue="Application.ParallelStreams" />
-      <item itemvalue="Application.ReduceForSum" />
+      <item itemvalue="Application.WordFrequency" />
+      <item itemvalue="Application.WordsCount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CharacterFrequency" />
+        <item itemvalue="Application.WordFrequency" />
+        <item itemvalue="Application.CheckRotation" />
+        <item itemvalue="Application.WordsCount" />
         <item itemvalue="Application.EmployeeStreamExample" />
-        <item itemvalue="Application.ParallelStreams" />
-        <item itemvalue="Application.FindAnyFindFirst" />
-        <item itemvalue="Application.GroupingByExample" />
-        <item itemvalue="Application.ReduceForSum" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +194,7 @@
       <updated>1762790447329</updated>
       <workItem from="1762790448565" duration="575000" />
       <workItem from="1762867640815" duration="7332000" />
-      <workItem from="1762927749777" duration="10749000" />
+      <workItem from="1762927749777" duration="32979000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -193,7 +204,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762790643680</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="java 8 examples">
+      <option name="closed" value="true" />
+      <created>1763001238416</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763001238416</updated>
+    </task>
+    <task id="LOCAL-00003" summary="string examples">
+      <option name="closed" value="true" />
+      <created>1763374522501</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763374522501</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +228,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="java 8 examples" />
+    <MESSAGE value="string examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="string examples" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/java8practice/strings/WordsCount.java</url>
+          <line>14</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/java8practice/strings/WordsCount.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/java8practice/strings/WordsCount.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/java8practice/strings/WordsCount.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
